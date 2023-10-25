@@ -1,0 +1,32 @@
+main li .campus {
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Define o raio dos cantos como 10px */
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 5px; /* Adiciona um espaço entre os elementos li */
+    display: flex; /* Torna o contêiner flexível */
+    justify-content: center;
+}
+
+.card {
+    flex: 1;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    background: #fff;
+    box-shadow: 0 0 14px 0;
+    border-radius: 10px;
+    padding: 30px 20px;
+    grid-template-columns: 1fr 1fr 
+  }
+
+  main ul {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 20px;
+    list-style: none;
+  }
+
+  
+  
