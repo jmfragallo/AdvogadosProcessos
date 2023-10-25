@@ -1,0 +1,65 @@
+aside {
+  width: 320px;
+  height: 200px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  background: #fff;
+  box-shadow: 0 0 14px 0;
+  border-radius: 10px;
+  padding: 30px 20px;
+  position: fixed;
+}
+
+aside strong {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: #293842;
+}
+
+aside form {
+  margin-top: 30px;
+}
+
+aside form .input-block {
+  margin-top: 20px;
+}
+
+aside form .input-block label {
+  color: #293842;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  margin-left: 75px;
+}
+
+aside form .input-block input {
+  width: 10%;
+  height: 32px;
+  font-size: 14px;
+  color: #fff;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  margin-left: 150px;
+  margin-top: 20px;
+  background: #729dba;
+  border-radius: 5px;
+  
+}
+
+aside form button[type=submit] {
+  width: 100%;
+  border: 0;
+  margin-top: 30px;
+  background: #729dba;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+aside form button:hover {
+  background: #293842;
+}
