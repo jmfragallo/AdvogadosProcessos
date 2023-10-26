@@ -6,12 +6,12 @@ const getAllProcess = async () => {
 }
 
 const getProcessosAdvogadoID = async (advogado_id) => {
-    const result = await searchModel.GetProcessosAdvogadoID(advogado_id);
+    const result = await searchModel.getProcessosAdvogadoID(advogado_id);
     return result;
 }
 
 const getProcessosAdvogadoName = async (name) => {
-    const result = await searchModel.GetProcessosAdvogadoName(name);
+    const result = await searchModel.getProcessosAdvogadoName(name);
     return result;
 }
 
